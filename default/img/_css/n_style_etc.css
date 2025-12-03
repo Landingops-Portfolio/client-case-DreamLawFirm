@@ -1,0 +1,1811 @@
+@charset 'utf-8';
+
+
+/* �뚯썝愿��� */
+/*****************************************************************
+濡쒓렇�� : login.php
+*****************************************************************/
+.np_login {
+    overflow: hidden;
+    border: 1px solid #eee;
+}
+/**/
+.np_loginBox01 {
+    width: 70%;
+    padding: 20px;
+    margin: 0 auto;
+    margin: 20px auto 20px;
+    border: 0px solid #f00;
+}
+.np_loginBox01 h3 {
+    color: #222;
+    font-size: 2.5em;
+    font-weight: 100;
+}
+.np_loginBox01 p {
+    margin: 5px 0 20px 0;
+}
+.np_loginBox01 input[type=text],
+.np_loginBox01 input[type=password] {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #ccc;
+    margin: 1px;
+    padding-left: 10px;
+}
+.np_loginBox01 .sec01 {
+    overflow: hidden;
+}
+.np_loginBox01 .sec01 .sec_left {
+    width: 70%;
+    float: left;
+}
+.np_loginBox01 .sec01 .sec_left input {
+    height: 40px;
+}
+.np_loginBox01 .sec01 .sec_right {
+    width: 29.5%;
+    float: right;
+}
+.np_loginBox01 .sec01 .sec_right input[name=login_ok] {
+    width: 100%;
+    height: 84px;
+    background-color: #222;
+    border: 1px solid #fff;
+    color: #ccc;
+}
+.np_loginBox01 .sec02 {
+    margin-top: 20px;
+}
+.np_loginBox01 .sec02 ul li {
+    text-align: right;
+    margin: 1px 0;
+    font-size: 0.875em;
+    color: #888;
+}
+.np_loginBox01 .sec02 .btn-sm {
+    width: 29.5%;
+    margin-left: 10px;
+    text-align: right;
+}
+
+/**/
+.np_loginBox02 {
+    width: 70%;
+    padding: 20px;
+    margin: 0 auto;
+    margin: 30px auto;
+    border-top: 1px dotted #888;
+    overflow: hidden;
+}
+.np_loginBox02 h3 {
+    margin: 20px 0 0;
+    font-size: 1.250em;
+}
+.np_loginBox02 p {
+    display: inline-block;
+    margin: 0 0 20px 0;
+    color: #888;
+}
+.np_loginBox02 ul {
+    overflow: hidden;
+}
+.np_loginBox02 li span {
+    width: 29.5%;
+    line-height: 40px;
+    display: inline-block;
+    background-color: #ddd;
+    text-align: center;
+    margin: 1px 0;
+}
+.np_loginBox02 li input {
+    width: 70%;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    float: right;
+    margin: 1px 0;
+}
+.np_loginBox02 .np_order_ok button {
+    width: 29.5%;
+    float: right;
+    text-align: right;
+    margin: 10px 0;
+}
+
+@media (max-width:768px) {
+    .np_login {
+        border: none;
+    }
+    .np_loginBox01,
+    .np_loginBox02 {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+
+
+
+
+/*****************************************************************
+�뚯썝媛��� : join.php
+*****************************************************************/
+.np_join {
+    border: 1px solid #eee;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.np_join .sec01 {
+    width: 70%;
+    margin: 0 auto;
+    padding: 40px 20px 0px;
+}
+
+.np_join .sec01 h3 {
+    font-size: 2.5em;
+    font-weight: 100;
+    border: 0px solid #ccc;
+}
+
+.np_join .sec01 p {
+    font-size: 1.0em;
+}
+
+.np_join .sec02 {
+    overflow: hidden;
+    width: 70%;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.np_join .sec_left {
+    width: 70%;
+    float: left;
+}
+
+.np_join .sec_right {
+    width: 29.5%;
+    float: right;
+}
+
+.np_join .sec_left span {
+    float: left;
+    display: block;
+    width: 30%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ddd;
+    margin: 1px 0;
+    text-align: center;
+}
+
+.np_join input.box {
+    height: 40px;
+}
+
+.np_join input {
+    width: 70%;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    margin: 1px 0;
+}
+
+.np_join input[name=join_ok] {
+    width: 100%;
+    height: 82px;
+    background-color: #333;
+    font-size: 1.25em;
+    font-weight: 300;
+    color: #fff;
+    border: 0;
+}
+
+@media (max-width:768px) {
+    .np_join {
+        width: 100%;
+        border: none;
+    }
+    .np_join .sec01,
+    .np_join .sec02 {
+        width: 100%;
+    }
+}
+
+
+
+
+/*****************************************************************
+�뚯썝媛��� : join.php : agreement_form
+*****************************************************************/
+.np_agreement {
+    text-align: left;
+    border: 0px solid #f00;
+}
+
+.np_agreement h5 {
+    font-size: 1.5em;
+    font-weight: 400;
+    padding: 10px 0;
+    border: 0px solid #eee;
+}
+
+.np_agreement input {
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.np_agreement textarea {
+    width: 100%;
+    height: 200px;
+    border: 1px solid #ccc;
+    padding: 30px;
+}
+
+.np_agreement input[type=image] {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.np_agreement button {
+    width: 150px;
+    float: right;
+    text-align: right;
+    margin: 10px 0;
+    padding: 10px 20px;
+}
+
+.np_agreement .member_txt td {
+    font-size: 1.150em;
+/*    border: 10px solid #f00;*/
+}
+
+.np_agreement .member_txt input[name=com_member_check_agree],
+.np_agreement .member_txt input[name=com_member_check_safe],
+.np_agreement .member_txt input[name=com_member_check_collection] {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+
+
+
+/*****************************************************************
+�뚯썝媛��� & �뺣낫�섏젙 : join.php , edit.php : apply_form (�낅젰�묒떇)
+*****************************************************************/
+.np_apply {
+    text-align: left;
+    border: 0px solid #eee;
+}
+
+.np_apply h5 {
+    font-size: 1.25em;
+    font-weight: 400;
+    padding: 10px 0;
+    margin-top: 20px;
+    border: 0px solid #eee;
+}
+
+.np_apply .sec01 {
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+.np_apply .sec01 h4 {
+    font-size: 1.25em;
+    font-weight: 100;
+    padding: 10px 0;
+    border: 0px solid #ccc;
+}
+
+.np_apply .sec01 p {
+    padding: 0px;
+}
+
+.np_apply .sec02 {
+    margin-top: 30px;
+    font-size: 0.875em;
+}
+
+.np_apply .sec02 .member_txt tr td {
+    border-bottom: 1px solid #ddd;
+    padding: 5px;
+}
+
+.np_apply .sec02 .member_td_bgcolor {
+    width: 20%;
+}
+
+.np_apply .sec02 input,
+.np_apply .sec02 select {
+    max-width: 100%;
+    height: 30px;
+    border: 1px solid #ccc;
+    margin: 1px 0;
+    padding-left: 5px;
+}
+
+.np_apply .sec02 .t_m1 {
+    border-top: 1px solid #222;
+}
+
+.np_apply .sec02 #dl1 dt {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.np_apply .sec02 input[name=addr],
+.np_apply .sec02 input[name=addr2] {
+    width: 100%;
+}
+
+.np_apply .sec02 input[name=addr_post1],
+.np_apply .sec02 input[name=phone_no1],
+.np_apply .sec02 input[name=phone_no2],
+.np_apply .sec02 input[name=phone_no3],
+.np_apply .sec02 select[name=mobile_no1],
+.np_apply .sec02 input[name=mobile_no2],
+.np_apply .sec02 input[name=mobile_no3] {
+    width: 65px;
+}
+
+.np_apply .sec02 input[name=member_img] {
+    border: none;
+}
+
+.np_apply .sec03 {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.np_apply .sec03 .btn-default {
+    padding: 10px 20px;
+}
+
+.np_apply .sec03 a {
+    vertical-align: top;
+}
+
+@media (max-width:768px) {
+    .np_apply .sec02 input,
+    .np_apply .sec02 select {
+        width: 100%;
+    }
+    
+    .np_apply .sec02 input[type=radio] {
+        width: 15px;
+    }
+}
+
+
+
+
+/*****************************************************************
+�뚯썝媛��� : join.php : apply_result_form (媛��낆셿猷�)
+*****************************************************************/
+.np_apply_result {}
+
+.np_apply_result .sec01 {
+    border: 1px solid #eee;
+    padding: 50px 10px;
+}
+
+.np_apply_result .sec01 h3 {
+    font-size: 2.5em;
+    font-weight: 100;
+    padding: 10px 0;
+    border: 0px solid #ccc;
+}
+
+.np_apply_result .sec01 p {
+    padding: 10px;
+}
+
+.np_apply_result .sec01 strong {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #5b95c9;
+}
+
+.np_apply_result .sec02 {
+    margin: 20px 0 30px;
+    overflow: hidden;
+}
+
+.np_apply_result .sec02 button {
+    width: 150px;
+    float: right;
+    text-align: right;
+    margin: 10px 0;
+}
+
+
+
+
+/*****************************************************************
+�뚯썝�덊눜 : secede
+*****************************************************************/
+.np_out {
+    text-align: left;
+}
+.np_out .sec01 .tit {
+    color: #111;
+    border-bottom: 1px solid #222;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+.np_out .sec01 table {
+    border: 1px solid #ddd;
+    border-width: 1px 0;
+}
+.np_out .sec01 tr td {
+    border-bottom: 1px solid #ddd;
+    padding: 5px;
+}
+.np_out .sec01 tr td:first-child {
+    width: 25%;
+    background-color: #eee;
+    text-align: center;
+}
+.np_out .sec01 input {
+    height: 30px;
+    padding: 5px;
+}
+
+.np_out .sec02 {
+    margin: 50px 0;
+    width: 100%;
+    display: table;
+}
+.np_out .sec02 .tit {
+    color: #111;
+    border-bottom: 1px solid #222;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.np_out .sec03 a {
+    vertical-align: top;
+}
+
+
+.np_out h5 {
+    font-size: 1.0em;
+    font-weight: 400;
+    color: #222;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.np_out input {
+    float: left;
+    margin-right: 10px;
+}
+
+.np_out .sec03 {
+    margin-top: 40px;
+}
+
+.np_out .sec03 input {
+    float: none;
+    margin-right: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************************************************************
+�섎떒�곸뿭 : �댁슜�덈궡
+*****************************************************************/
+.np_siteinfo .rull_site {
+    height: 600px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+    line-height: 200%;
+}
+
+.np_siteinfo .rull_site #use {
+    text-align: right;
+}
+
+.np_siteinfo .rull_site dl {
+    
+}
+
+.np_siteinfo .rull_site dt {
+    margin-top: 30px;
+}
+
+.np_siteinfo .rull_site dd {
+}
+
+
+
+/*****************************************************************
+�섎떒�곸뿭 : �쒕퉬�ㅼ씠�⑹빟愿�
+*****************************************************************/
+.np_siteinfo .service_rull {
+    height: 600px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+    line-height: 200%;
+}
+
+.np_siteinfo .service_rull p.tit {
+    margin-top: 30px;
+}
+
+
+
+/*****************************************************************
+�섎떒�곸뿭 : 媛쒖씤�뺣낫痍④툒諛⑹묠
+*****************************************************************/
+.np_siteinfo .personal {
+    height: 600px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+    line-height: 200%;
+}
+
+.np_siteinfo .personal .summary {
+    margin-top: 30px;
+    color: #888;
+}
+
+.np_siteinfo .personal h3 {
+    margin-top: 30px;
+    font-size: 1.125em;
+}
+
+
+
+/*****************************************************************
+�섎떒�곸뿭 : �대찓�쇰Т�⑥닔吏묎굅遺�
+*****************************************************************/
+.np_siteinfo .email {
+    padding: 20px 0 50px;
+    line-height: 300%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************************************************************
+寃뚯떆�� 怨듯넻 �꾩껜
+*****************************************************************/
+.n_board_txt > table,
+.n_board_gallery > table {
+    width: 100%;
+    border: 0px solid #f00;
+}
+
+
+/*****************************************************************
+寃뚯떆�� 理쒖긽�⑤씪�� & 湲고��곸뿭 �〓룞 而щ윭
+*****************************************************************/
+.n_board_gallery > table .boxArea > table > tbody > tr > td {
+    background-color: #fff;
+    vertical-align: top;
+}
+
+
+/*****************************************************************
+湲�紐⑸줉 : �꾩껜�좏깮(愿�由ъ옄濡쒓렇�몄떆)
+*****************************************************************/
+.n_board_txt #check_all,
+.n_board_gallery #check_all {
+    width: 18px;
+    height: 18px;
+    margin: 5px;
+}
+
+
+/*****************************************************************
+湲��쎄린, 湲��곌린 : tr > td(醫뚯륫/�곗륫)
+*****************************************************************/
+.n_board_txt .board_bgcolor,
+.n_board_gallery .board_bgcolor {
+    width: 20%;
+}
+.n_board_txt .board_desc,
+.n_board_gallery .board_desc {
+    width: 80%;
+    text-align: left;
+}
+
+
+/*****************************************************************
+湲��곌린 : �섎떒 怨듭�湲�泥댄겕
+*****************************************************************/
+.n_board_txt .board_desc input[type=checkbox],
+.n_board_gallery .board_desc input[type=checkbox] {
+    max-width: 17px;
+    max-height: 17px;
+}
+
+
+/*****************************************************************
+湲��곌린 : �곷떒�낅젰�댁슜(�묒꽦��,鍮꾨쾲,�쒕ぉ��..) & 湲�紐⑸줉 : 愿�由ъ옄泥댄겕諛뺤뒪
+*****************************************************************/
+.n_board_txt .board td input,
+.n_board_gallery .board td input {
+    width: 100%;
+    border: 1px solid #ddd;
+    background-color: transparent;
+    height: 30px;
+    padding: 3px 5px;
+    margin: 1px 0;
+}
+
+.n_board_txt .board td input[type=file],
+.n_board_gallery .board td input[type=file] {
+    max-width: 500px;
+    border: 0px solid #ddd;
+}
+
+.n_board_txt .seLayout,
+.n_board_gallery .seLayout {
+    border: none;
+}
+
+
+/*****************************************************************
+湲��곌린 : �꾪솕踰덊샇, �대���, �쇰뵒�ㅻ쾭��, 泥댄겕諛뺤뒪
+*****************************************************************/
+.n_board_txt .board td input[name=phone_no1],
+.n_board_txt .board td input[name=phone_no2],
+.n_board_txt .board td input[name=phone_no3],
+.n_board_txt .board td input[name=mobile_no1],
+.n_board_txt .board td input[name=mobile_no2],
+.n_board_txt .board td input[name=mobile_no3] {
+    max-width: 70px;
+    width: 100%;
+}
+
+.n_board_txt .board td input[type=radio],
+.n_board_txt .board td input[type=checkbox] {
+    width: 20px;
+    margin: 0 0 0 5px;
+}
+
+
+/*****************************************************************
+湲��곌린 : textarea
+*****************************************************************/
+.n_board_txt .seLayout #descriptionView_IFRAME,
+.n_board_gallery .seLayout #descriptionView_IFRAME {
+    border: 1px solid #ddd;
+}
+
+.n_board_txt #descriptionView_toolbar_container {display:none;}
+
+/*****************************************************************
+湲��곌린 : �뺤씤踰꾪듉
+*****************************************************************/
+.n_board_txt .bbsnewf5 input[type=image],
+.n_board_gallery .bbsnewf5 input[type=image] {
+    width: auto;
+    vertical-align: top;
+    padding: 0px;
+    border: 0px solid #f00;
+}
+
+
+/*****************************************************************
+湲��곌린 : 痍⑥냼踰꾪듉 & 湲�蹂닿린 : 踰꾪듉��
+*****************************************************************/
+.n_board_txt .bbsnewf5 > a img,
+.n_board_gallery .bbsnewf5 > a img {
+    border: 0px solid #f00;
+    vertical-align: top;
+    
+}
+
+
+/*****************************************************************
+湲�紐⑸줉 : ���됲듃諛뺤뒪
+*****************************************************************/
+.n_board_txt .est_cate_cell select,
+.n_board_gallery .est_cate_cell select {
+    height: 30px;
+    border: 1px solid #bbb;
+    margin: 1px 0;
+}
+
+
+/*****************************************************************
+湲��곌린 : ���됲듃諛뺤뒪
+*****************************************************************/
+.n_board_txt .board_desc > select,
+.n_board_gallery .board_desc > select {
+    width: 120px;
+    height: 30px;
+    border: 1px solid #bbb;
+    margin: 1px 0;
+}
+
+
+/*****************************************************************
+湲�紐⑸줉 : 寃��됱뼱�낅젰
+*****************************************************************/
+.n_board_txt .est_keyword_cell input[name=com_board_search_value],
+.n_board_gallery .est_keyword_cell input[name=com_board_search_value] {
+    height: 30px;
+    max-width: 150px;
+    margin: 0 1px;
+    border: 1px solid #bbb;
+    margin: 1px 0;
+}
+
+
+/*****************************************************************
+湲�紐⑸줉 : 寃��됰쾭��
+*****************************************************************/
+.n_board_txt .est_btn_cell input[title=input],
+.n_board_gallery .est_btn_cell input[title=input] {
+    border: 0px solid #ddd;
+    padding: 0px;
+}
+
+
+/*****************************************************************
+湲�紐⑸줉 : 愿�由ъ옄 濡쒓렇�몄떆 寃뚯떆臾쇱껜�щ컯��
+*****************************************************************/
+.n_board_txt .bbschk input[type=checkbox] {
+    width: 17px;
+    height: 17px;
+}
+
+
+/*****************************************************************
+媛ㅻ윭由щぉ濡� : 愿�由ъ옄 濡쒓렇�몄떆 寃뚯떆臾쇱껜�щ컯��
+*****************************************************************/
+.n_board_gallery .adminCheck {
+    position: relative;
+    width: 0px;
+}
+.n_board_gallery .adminCheckBox {
+    position: absolute;
+    z-index: 1;
+    top: 3px;
+    left: 6px;
+    width: 20px !important;
+}
+
+
+/*****************************************************************
+媛ㅻ윭由щぉ濡� : �대�吏��ъ씠利�
+*****************************************************************/
+.n_board_gallery .nSize img {
+    width: 100%;
+    height: auto;
+    padding: 5px 3px 0;
+}
+
+.n_board_gallery .nSize:hover img {
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    opacity: 0.8;
+}
+
+
+/*****************************************************************
+媛ㅻ윭由ы삎 寃뚯떆�� : 媛곴컖�� 移몄쁺��(2��,3��,4�� ��..)
+*****************************************************************/
+.n_board_gallery .boxArea {
+    padding-bottom: 50px;
+}
+
+
+
+
+
+/*****************************************************************
+湲�紐⑸줉 : 理쒖긽�� �쇱씤�곸뿭
+*****************************************************************/
+.board_top_line {
+    background-color: #ddd;
+    height: 1px;
+}
+
+
+/*****************************************************************
+湲�紐⑸줉 : 理쒖긽�� 援щ텇�곸뿭
+*****************************************************************/
+.n_board_txt .board .boardTitBar {
+    background-color: #e7a500;
+    border-bottom: 1px solid #ddd;
+    color: #fff;
+    font-size: 1em;
+    height: 40px;
+}
+
+.n_board_txt .boardTitBar td:first-child {
+    width: 80px;
+}
+
+
+
+/*****************************************************************
+�띿뒪�명삎 寃뚯떆�� : 濡ㅼ삤踰� �좏깮而щ윭
+*****************************************************************/
+.n_board_txt .tr_line,
+.n_board_gallery .tr_line {
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.n_board_txt .tr_line:hover {
+    background-color: #eee;
+}
+
+
+/*****************************************************************
+湲�紐⑸줉 : �� �믪씠 / 湲��� �됱긽
+*****************************************************************/
+.n_board_txt .tr_line td {
+    font-size: 1em;
+    padding: 8px 5px ;
+	vertical-align : middle;
+}
+
+.n_board_txt .tr_line td a:hover { color:#e7a500; }
+
+/*****************************************************************
+湲�紐⑸줉 : �� : �묒꽦��,�묒꽦�쇱옄,議고쉶�� ��
+*****************************************************************/
+.n_board_txt .tr_line .bbsno,
+.n_board_txt .tr_line .bbscategory,
+.n_board_txt .tr_line .bbswriter,
+.n_board_txt .tr_line .bbsetc_dateof_write,
+.n_board_txt .tr_line .bbsetc_view_count {
+    margin-top:0.125em;
+    font-size: 0.875em;
+    color: #666;
+	font-weight:300;
+}
+
+
+/*****************************************************************
+湲�蹂닿린,湲��곌린 : ��ぉ援щ텇 ��
+*****************************************************************/
+.n_board_txt .diviedLine td,
+.n_board_gallery .diviedLine td {
+    border-top: 1px solid #fff;
+}
+
+
+/*****************************************************************
+湲�蹂닿린 : �대�吏��ъ씠利� 100%
+*****************************************************************/
+.n_board_txt #post_area,
+.n_board_gallery #post_area {
+    width: 100%;
+    height: auto;
+    padding: 10px 10px 100px;
+    border: 1px solid #e5e5e5;
+    border-width: 1px 0;
+    text-align: left;
+}
+
+.n_board_txt #post_area > img,
+.n_board_gallery #post_area > img {
+    width: 100% !important;
+    height: 100% !important;
+}
+.n_board_txt #post_area .fsize img,
+.n_board_gallery #post_area .fsize img {
+    max-width: 100% !important;
+    height: 100% !important;
+}
+
+@media screen and (max-width: 425px) {
+    .n_board_txt #post_area img,
+    .n_board_gallery #post_area img {
+        width: 100% !important;
+        height: 100% !important;
+    }
+}
+
+/* �섎떒 紐⑸줉�대�吏� */
+.n_board_gallery .image_sublist {
+    display: none;
+}
+
+
+
+
+/*****************************************************************
+湲�蹂닿린 : embed : �숈쁺�곴쾶�쒗뙋
+*****************************************************************/
+.n_board_txt #post_area embed,
+.n_board_gallery #post_area embed {
+    width: 100%;
+    border: 0px solid #f00;
+}
+@media screen and (max-width: 768px) {
+    embed {
+        height: 400px;
+    }
+}
+@media screen and (max-width: 425px) {
+    embed {
+        height: 300px;
+    }
+}
+
+
+
+/*****************************************************************
+���됲듃諛뺤뒪 : 怨듯넻
+*****************************************************************/
+.n_board_txt select,
+.n_board_gallery select {
+    width: 80px;
+    max-width: 100%;
+    padding: 3px;
+    font-size: 0.875em;
+    color: #555;
+}
+
+
+/*****************************************************************
+湲��곌린 : �섎떒踰꾪듉洹몃９�� �곷떒�щ갚
+*****************************************************************/
+.n_board_txt .nbButton,
+.n_board_gallery .nbButton {
+    margin-top: 30px;
+    border: 0px solid #f00;
+}
+
+
+/*****************************************************************
+湲�蹂닿린 : �섎떒踰꾪듉�곸뿭
+*****************************************************************/
+.veiwBottonArea {
+    border: 0px solid #f00;
+}
+
+.veiwBottonArea a {
+    display: inline-block;
+}
+
+
+/*****************************************************************
+移댄뀒怨좊━ �곸뿭
+*****************************************************************/
+.categoryArea {
+    margin-bottom: 5px;
+    text-align: left;/* left, right, center */
+}
+
+.categoryArea img {
+    display: none;
+}
+
+.categoryArea b {
+    display: none;/* none, inline-block */
+    vertical-align: top;/* top, middle, bottom */
+    font-weight: normal;
+    font-size: 0.875em;
+    color: #555;
+}
+
+.categoryArea select {
+    width: 120px;
+}
+
+
+/*****************************************************************
+寃뚯떆�� : �섏씠吏�
+*****************************************************************/
+.paging {
+    font-size: 0.875em;
+}
+
+.paging b {
+	margin-top: 30px;
+    display: inline-block;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 3px 8px;
+    text-align: center;
+    font-weight: normal;
+    color: #000;
+}
+
+.paging a {
+	margin-top: 30px;	
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 3px 8px;
+    text-align: center;
+    color: #888;
+}
+
+
+
+
+@media (max-width:768px) {
+    
+    /*****************************************************************
+    �띿뒪�명삎 寃뚯떆�� : �몄텧��ぉ & 紐⑸줉�ъ씠利�
+    *****************************************************************/
+    .n_board_txt .board .boardTitBar {
+        display: none;
+    }
+    
+    .n_board_txt .tr_line td {
+        display: none;
+    }
+    
+    
+    /*****************************************************************
+    愿�由ъ옄 濡쒓렇�몄떆 �섑��섎뒗 泥댄겕諛뺤뒪
+    *****************************************************************/
+    .n_board_txt .tr_line td.bbschk {
+        position: absolute;
+        left: 10px;
+        display: inline-block;
+    }
+    
+    .n_board_txt .tr_line td.bbsno {
+        width: 10%;
+        display: inline-block;
+        float: left;
+    }
+    
+    .n_board_txt .tr_line td.bbsnewf5 {
+        width: 65%;
+        display: inline-block;
+        margin-top: -1px;
+        float: left;
+        overflow: hidden;
+        white-space: nowrap;
+		text-overflow: hidden;
+    }
+    
+    .n_board_txt .tr_line td.bbswriter {
+        width: 25%;
+        display: inline-block;
+        float: right;
+        overflow: hidden;
+        white-space: nowrap;
+		text-overflow: hidden;
+    }
+    
+    
+	
+    /*****************************************************************
+    媛ㅻ윭由ы삎 寃뚯떆�� : 紐⑸줉�대�吏�
+    *****************************************************************/
+    .n_board_gallery .boxArea {
+        display: block;
+        width: 100%;
+    }
+    .n_board_gallery .nSize img {
+        padding: 5px 0px 0;
+    }
+    
+    
+    /*****************************************************************
+    �볤��곸뿭 : �대쫫,�댁슜,�쒓컙
+    *****************************************************************/
+    .comment_name {
+        width: 150px;
+        display: block;
+        border: 0px solid #f00;
+    }
+    
+    .comment_view {
+/*        width: 100px;*/
+        display: block;
+        border: 0px solid #f00;
+    }
+    
+    .comment_hour {
+        width: 100px;
+        border: 0px solid #f00;
+    }
+    
+}
+
+
+
+
+/*****************************************************************
+�볤��곸뿭 : �대쫫,�댁슜,�쒓컙
+*****************************************************************/
+.commentArea {
+    font-size: 0.875em;
+    color: #888;
+    border: 1px solid #eee !important;
+}
+
+.comment_name {
+    width: 150px;
+}
+
+.comment_view {
+    width: auto;
+}
+
+.comment_hour {
+    width: 100px;
+    padding: 3px 0;
+}
+
+
+
+
+
+
+
+
+
+/*****************************************************************
+�쇰찓��
+*****************************************************************/
+.np_form {
+    width: 100%;
+    margin: 0 auto;
+    border: 0px solid #f00;
+}
+.np_form > table {
+    width: 100%;
+    text-align: left;
+    border: 0px solid #f00;
+}
+
+.np_form input[class=formmail_border] {
+/*    max-width: 500px;*/
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color: transparent;
+    height: 36px;
+    padding: 3px 5px;
+    margin: 1px 0;
+}
+
+.np_form td.formmail_title_bgcolor {
+    width: 20%;
+    background-color: #f7f7f7;
+    border-top: 1px solid #fff;
+    vertical-align: middle;
+    font-size: 0.875em;
+    color: #555;
+}
+
+.np_form td.formmail_cell_bgcolor {
+    width: 80%;
+    padding: 0px !important;
+}
+
+.np_form select {
+/*    max-width: 500px;*/
+    width: 100%;
+    padding: 3px 5px;
+    height: 36px;
+    margin: 1px 0;
+    border: 1px solid #ccc;
+}
+
+.np_form td.formmail_cell_bgcolor textarea {
+/*    max-width: 500px;*/
+    width: 100%;
+    border: 1px solid #ccc;
+    margin: 1px 0;
+    padding: 5px;
+}
+
+.np_form input[type=file] {
+    border: none;
+    display: inline-block;
+    font-family: 'arial';
+    font-size: 12px;
+}
+
+.np_form input[name=phone_no1],
+.np_form input[name=phone_no2],
+.np_form input[name=phone_no3],
+.np_form input[name=mobile_no1],
+.np_form input[name=mobile_no2],
+.np_form input[name=mobile_no3] {
+    max-width: 70px;
+    width: 100%;
+}
+
+
+/*媛쒖씤�뺣낫 �숈쓽*/
+.np_form .personalInformation {
+    margin: 30px 0 0 0 !important;
+    font-size: 0.875em;
+    color: #888;
+}
+
+.np_form .personalInformation input[name=com_formmail_check_safe] {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+
+
+/*****************************************************************
+�ㅽ뙵�깅줉諛⑹�
+*****************************************************************/
+.captcha td {
+    padding: 10px 0;
+    font-size: 0.875em;
+    border: 0px solid #f00;
+}
+
+.captcha td:first-child {
+    background-color: #f7f7f7;
+}
+
+.captcha td img {
+    max-width: 100%;
+}
+
+.captcha input[name=captcha_code] {
+    height: 36px;
+    border: 1px solid #ccc;
+}
+
+
+
+/*****************************************************************
+�섎떒踰꾪듉�곸뿭
+*****************************************************************/
+.formButton {
+    margin: 20px 0;
+    border: 0px solid #f00;
+}
+
+@media (max-width: 768px) {
+    .np_form input[name=phone_no1],
+    .np_form input[name=phone_no2],
+    .np_form input[name=phone_no3],
+    .np_form input[name=mobile_no1],
+    .np_form input[name=mobile_no2],
+    .np_form input[name=mobile_no3] {
+        width: 68px !important;
+    }
+    .np_form input[name=name],
+    [name=receiver_email],
+    [name=address],
+    [name=title],
+    [type=file] {
+        width: 100%;
+    }
+    .np_form select {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+/*****************************************************************
+異붿텧寃뚯떆臾� : 怨듯넻
+*****************************************************************/
+.n_output {
+    position: relative;
+    font-size: 1.0em;
+}
+
+.n_output h3 {
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    padding: 11px 5px 12px;
+    margin: 0 0 10px;
+    font-size: 1.0em;
+}
+
+.n_output span.more {
+    position: absolute;
+    top: 9px;
+    right: 0px;
+    font-size: 0.875em;
+}
+
+.n_output table {
+    width: 100%;
+}
+
+
+/*****************************************************************
+異붿텧寃뚯떆臾� : �띿뒪�명삎
+*****************************************************************/
+.n_output_txt .board_output {
+    text-align: left;
+}
+
+
+/*****************************************************************
+異붿텧寃뚯떆臾� : 寃뚯떆湲� �곹븯以꾧컙寃�
+*****************************************************************/
+.n_output_txt .board_output .board_output tbody > tr > td {
+    padding: 3px 0;
+    height: 36px;
+    font-size: 1.0em;
+    border-bottom: 1px dotted #ccc;
+}
+
+.n_output_txt .board_output tbody > tr > td:nth-child(3) {
+    text-align: right;
+    font-size: 0.875em;
+    color: #888;
+    line-height: normal;
+}
+
+.n_output_txt .board_output img {
+    display: none;
+}
+
+
+
+
+
+
+/*****************************************************************
+媛ㅻ윭由ы삎
+*****************************************************************/
+.n_output_gallery .board_output {
+    text-align: center;
+}
+
+
+/*****************************************************************
+媛ㅻ윭由ы삎 : 寃뚯떆臾� 移몄뭏�� (愿�由ъ옄�ㅼ젙�섏씠吏� �ㅼ젙媛� �곸슜)
+*****************************************************************/
+.n_output_gallery .board_output > tbody > tr > td {
+    padding: 0 3px 20px;
+}
+
+
+/*****************************************************************
+媛ㅻ윭由ы삎 : �띿뒪�몄젙蹂�
+*****************************************************************/
+.n_output_gallery .board_output > tbody > tr > td span {
+    font-size: 0.875em;
+    line-height: 120%;
+    color: #888;
+}
+
+
+/*****************************************************************
+媛ㅻ윭由ы삎 : 諛곌꼍而щ윭 (留덉슦�ㅼ삤踰꾩떆 蹂댁엫)
+*****************************************************************/
+.n_output_gallery .board_output .board_output_gallery_img {
+    background-color: rgba(100, 100, 100, 0.8);
+}
+
+
+/*****************************************************************
+媛ㅻ윭由ы삎 : �대�吏��ъ씠利�
+*****************************************************************/
+.n_output_gallery .board_output .board_output_gallery_img .board_output_imgs {
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    width: 100%;
+    height: auto;
+}
+
+
+/*****************************************************************
+媛ㅻ윭由ы삎 : 留덉슦�ㅼ삤踰꾩떆 �щ챸��
+*****************************************************************/
+.n_output_gallery .board_output .board_output_gallery_img .board_output_imgs:hover {
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************************************************************
+�쇱젙愿�由� : 紐⑸줉蹂닿린
+*****************************************************************/
+/* 紐⑸줉蹂닿린 */
+.np_schedule {
+/*    border: 1px solid #f00;*/
+}
+.np_schedule iframe {
+    display: none;
+}
+
+.np_schedule .schedule_title > a > img {
+    vertical-align: middle;
+    padding: 3px 10px 10px 10px;
+}
+
+.np_schedule img {
+    max-width: 100%;
+}
+
+.np_schedule_tit {
+	color: #fff;
+    height: 40px;
+    font-size: 1.25em;
+    background-color: #e7a500;
+/*    border-bottom: 1px solid #000;*/
+}
+.np_schedule_tit.sun {
+    background-color: #ddd;
+	display:none !important;
+}
+.np_schedule_tit.sat {
+    background-color: #ddd;
+	display:none !important;
+}
+#schedule3, #schedule2 { display:none !important; }
+
+
+.np_schedule .schedule_write_title {
+    background-color: #eee;
+    width: 20%;	
+}
+
+.np_schedule input {
+    width: auto;
+    display: inline-block;
+}
+
+.np_schedule .schedule_write_title {
+    min-width: 20%;
+    font-family: 'Noto Sans KR';
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 0;
+    border-bottom: 1px solid #fff;
+}
+
+.np_schedule .schedule_write_cell {
+    font-family: 'Noto Sans KR';
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.np_schedule td#schedule1,
+.np_schedule td#schedule2,
+.np_schedule td#schedule3 {
+    vertical-align: top;
+    padding: 5px;
+}
+
+
+
+/*****************************************************************
+�쇱젙愿�由� : �댁슜蹂닿린
+*****************************************************************/
+/* �댁슜蹂닿린 */
+.np_schedule .schedule_view {
+    padding: 20px 0;
+    border-bottom: 1px dotted #555;
+}
+.np_schedule input[type=text],
+.np_schedule input[type=password] {
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #bbb;
+}
+.np_schedule textarea {
+    max-width: 100%;
+    margin: 5px 0;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #bbb;
+}
+.np_schedule .veiwBottonArea {
+    margin: 30px 0;
+    border: 0px solid #f00;
+}
+
+
+
+
+
+
+
+
+
+
+/*****************************************************************
+硫��고꺆 : 怨듯넻
+*****************************************************************/
+.n_tab .nav-tabs {
+    margin: 0 0 8px;
+    border-bottom: 1px solid #ddd;
+}
+.n_tab .nav-tabs li a {
+    font-size: 0.875em;
+    text-align: center;
+}
+.n_tab .tab-content .n_output span.more {
+    position: absolute;
+    top: -40px;
+    right: 0px;
+}
+
+
+/*****************************************************************
+硫��고꺆 : ��뒪����_01
+*****************************************************************/
+.n_tab .nav-tabs > li {
+    width: 25%
+}
+
+.n_tab .nav-tabs > li > a {
+    margin-right: 1px;
+    background-color: #ddd;
+    border: 0px solid #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 0px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.n_tab .nav-tabs > li.active > a,
+.n_tab .nav-tabs > li.active > a:hover,
+.n_tab .nav-tabs > li.active > a:focus {
+    color: #111;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-bottom-color: transparent;
+}
+
+@media screen and (max-width: 425px) {
+    .n_tab .tab-content .n_output span.more {
+        display: none;
+    }
+    .n_tab .nav-tabs > li > a {
+        font-size: 0.875em;
+    }
+}
+
+
+
+
+
+
+
+
+
+/*****************************************************************
+異붽��섏씠吏� : �щ텇�섏씠吏�
+*****************************************************************/
+.np_add_page {
+    height: 500px;
+    padding-top: 100px;
+    text-align: center;
+    border: 10px solid #ddd;
+    color: #111
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************************************************************
+�쇳븨紐� : 二쇰Ц�쒖옉��
+*****************************************************************/
+#content .radio,
+.checkbox {
+    display: inline-block;
+    vertical-align: middle;
+/*    background-color: #f00;*/
+}
+
+@media (max-width: 768px) {
+    #content input[name=oaddress_01],
+    #content input[name=oaddress_02],
+    #content input[name=omail],
+    #content input[name=address],
+    #content input[name=address_01] {
+        width: 100%;
+    }
+}
+
+#content img {
+/*    display: none;*/
+    max-width: 100%;
+}
+
+
+
+
+/*****************************************************************
+�쇳븨紐� : �곹뭹紐⑸줉�대�吏�
+*****************************************************************/
+#product_list a img {
+    max-width: 250px;
+}
+
+
+
+
+/*****************************************************************
+�쇳븨紐� : �쒕툕�섏씠吏� > �곷떒�대�吏� : �쇳븨紐곗뿉�쒕쭔 �곸슜
+*****************************************************************/
+.nt_imgArea_shop {
+/*    height: 250px;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************************************************************
+nFulid : �щ갚�쒓굅
+*****************************************************************/
+.container-fulid.nFulid > .row,
+.container-fulid.nFulid > div > .row {
+    margin: 0;
+}
+.container-fulid.nFulid > .row > div,
+.container-fulid.nFulid > div > .row > div {
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************************************************************
+temp > index_description.html (�ㅻ챸�섏씠吏� �꾩떆�뚯뒪)
+*****************************************************************/
+.temp {
+    margin: 0px auto;
+    padding: 150px 0;
+/*    min-width: 1280px;*/
+}
+
+/* �щ씪�대뱶1,2,3 */
+.temp > div:nth-child(1),
+.temp > div:nth-child(2),
+.temp > div:nth-child(3) {
+    padding: 200px 100px 100px;
+}
+@media screen and (max-width: 768px) {
+    .temp > div:nth-child(1),
+    .temp > div:nth-child(2),
+    .temp > div:nth-child(3) {
+        padding: 200px 30px 100px;
+    }
+}
+.temp > div {
+    position: relative;
+    margin: 100px auto 400px;
+    padding: 200px 0 100px;
+    border: 20px solid #222;
+    border-radius: 10px;
+}
+
+.temp > div > .nm_tit {
+    margin: 10px auto;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: -75px;
+    margin-left: -50%;
+    z-index: 10;
+/*    background-color: #fff;*/
+    font-family: "Noto Sans KR", sans-serif;
+}
+.temp > div > .nm_tit > h3 {
+    background-color: #222;
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 50px;
+    border-radius: 50px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    color: #e7a500;
+}
+.temp > div > .nm_tit > span {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #000;
+}
+
+/*****************************************************************
+(鍮꾨�湲� �뺤씤)
+*****************************************************************/
+
+board_txt { font-size:2em !important; font-weight:400; }
+
+/*****************************************************************
+(臾대즺�곷떞�� 湲��곌린踰꾪듉)
+*****************************************************************/
+
+.bt_write a img:hover {opacity:0.9;}
